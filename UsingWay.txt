@@ -1,0 +1,20 @@
+分为：
+1.团队内部协作：
+1）项目发起人git init本地库和创建远程库。
+2）发起人git push oringin master推送到远程库。
+3）程序员git clone [远程库https地址]拉项目到本地。
+4）程序员git push 操作，把代码提交到本地库。
+5）发起人git pull origin master把代码同步到本地。
+
+2.跨团队合作：
+1）
+2）
+3
+4
+5
+6
+7
+
+远程托管平台：
+局域网：GitLab
+广域网：GitHub 和 Gitee
