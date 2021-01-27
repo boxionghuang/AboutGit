@@ -2,3 +2,13 @@
 暂存区：为什么要设置暂存区？这个问题有待解。
 本地库：git在本地的版本库
 
+设置/更改默认用户名和邮箱：
+git config --global user.name "your name"
+git config --global user.email "your email"
+
+设置默认origin远程库：
+git remote add origin http://xxxxxxx
+
+查看默认origin远程库：
+git remote -v
+
