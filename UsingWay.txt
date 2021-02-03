@@ -1,4 +1,4 @@
-分为：
+﻿分为：
 1.团队内部协作：
 1）项目发起人git init本地库和创建远程库。
 2）发起人git push oringin master推送到远程库。
@@ -7,13 +7,13 @@
 5）发起人git pull origin master把代码同步到本地。
 
 2.跨团队合作：
-1）
-2）
-3
-4
-5
-6
-7
+1）A公司项目发起人git init本地库和创建远程库
+2）A公司发起人git push oringin master推送到远程库
+3）B公司程序员fork A公司的远程仓库形成一个新的远程仓库
+4）B公司程序员clone远程仓库
+5）B公司程序员git push操作将修改内容上传到远程仓库
+6）B公司程序员发起pull request,等待A审核,没问题就进行merge操作,将内容合并到A的远程库中
+7）A公司程序员就可以git pull操作将远程仓库的内容拉取到本地仓库
 
 远程托管平台：
 局域网：GitLab
